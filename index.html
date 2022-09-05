@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic light setinterval</title>
+</head>
+<style>
+   .mainn{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.countter{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 3%;
+}
+.frame{
+    width: 130px;
+    height: 50vh;
+    border: 1px solid black;
+    border-radius: 20px 20px 0px 0px ;
+    background-color: blue;
+
+}
+.light{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.standdiv{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.standd{
+    width: 28px;
+    height: 25vh;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid black;
+    background-color: blue;
+    margin-left: 0px;
+
+}
+.standd1{
+    width: 28px;
+    height: 25vh;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid black;
+    margin-left: 75px;
+    background-color: blue;
+    
+
+}
+.myname{
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 8%;
+}
+</style>
+<body>
+    <div class="mainn">
+        
+        <div class="frame">
+            <div class="countter">10</div>
+            <div id="red" class="light"></div>
+            <div id="yellow" class="light"></div>
+            <div id="green"  class="light"></div>
+        </div>
+    </div>
+    <div class="standdiv">
+        <div class="standd"></div>
+        <div class="standd1"></div>
+    </div>
+    <p class="myname">Dev_by_Gmor😍</p>
+</body>
+</html>
+<script src="trafficlight.js"></script>
